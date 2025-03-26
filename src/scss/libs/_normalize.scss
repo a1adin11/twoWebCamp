@@ -1,0 +1,90 @@
+@use "./_variables" as v;
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  outline: none;
+  font-family: "Raleway";
+  font-feature-settings: "lnum";
+  box-sizing: border-box;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Raleway", sans-serif;
+  background-color: v.$background-gray;
+  height: 100vh;
+}
+
+a,
+span,
+p,
+b,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: white;
+}
+
+h1 {
+  font-family: "MarckScript", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  color: v.$yellow;
+}
+
+h2 {
+  font-family: "Handjet";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+}
+p,
+span {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+button {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 19px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@mixin noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

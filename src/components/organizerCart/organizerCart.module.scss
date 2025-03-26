@@ -1,0 +1,30 @@
+@use "../../scss/libs/_variables" as v;
+
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+
+  .pictures {
+    img {
+      width: 300px;
+      height: 300px;
+      clip-path: circle(50%); /* Обрезаем изображение до круга */
+      object-fit: cover;
+    }
+
+    h3 {
+      font-family: "MarckScript", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      color: v.$yellow;
+      text-align: center;
+    }
+  }
+
+  p {
+    text-align: center;
+  }
+}
