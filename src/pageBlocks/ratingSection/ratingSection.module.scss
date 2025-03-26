@@ -1,0 +1,10 @@
+@use "../../scss/libs/_variables" as v;
+
+.root {
+    h2 {
+        padding: 0 40px;
+    }
+    .ratingWrapper {
+        padding: 20px 40px;
+    }
+}
