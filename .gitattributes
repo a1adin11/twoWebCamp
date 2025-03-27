@@ -3,3 +3,5 @@
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 *.ogg filter=lfs diff=lfs merge=lfs -text
 *.mov filter=lfs diff=lfs merge=lfs -text
+assets/rep1-Ck4hwzB-.mp4 filter=lfs diff=lfs merge=lfs -text
+assets/rep2-DB9gjY9i.mp4 filter=lfs diff=lfs merge=lfs -text
